@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1> REGISTRATION FORM </h1>
+ 
+    <form action="/action_php.php"></form>
+    <label for="name">Name:</label>
+    <div>
+       <input type="text" name="myname" id="name">
+    </div><br>
+    <label for="roll">Roll No.:</label>
+    <div>
+       <input type="number" name="mynumber" id="roll">
+    </div><br>
+    
+    <label for="date">Date Of Birth:</label>
+    <div>
+      <input type="date" name="mydate" id="date">
+    </div><br>
+    <label for="time">Time </label>
+    <div>
+       <input type="time" name="mytime" id="time">
+    </div><br>
+    <label for="age">Age:</label>
+    <div>
+        <input type="number" name="mybonus" id="age">
+    </div><br>
+    <div>
+        Are you eligible ? <input type="checkbox" name="mycheckbox">
+    </div><br>
+    <div>
+        Gender: Male<input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+    </div><br>
+
+    <div>
+        Write About Yourself: <br><textarea name="Write Text Here" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="lang">Language Known</label>
+        <select name="mylang" id="lang">
+            <option value="eng" selected>English</option>
+            <option value="hin" >Hindi</option>
+            <option value="fre">French</option>
+            <option value="Ger">German</option>
+            <option value="mand">Mandarin</option>
+        </select>
+       <br>
+       <br>
+
+    </div>
+    <div>
+        <input type="Submit"  value="Submit">
+        <input type="Reset"   value="Reset Now">
+    </div>
+
+</body>
+</html>

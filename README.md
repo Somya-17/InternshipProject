@@ -21,19 +21,20 @@ Attributes
 12/12/2022 :
         =>Basic HTML structure
         =>basic tags: head, meta , body, p, b, i, href, a etc.
+        =>List
         =>References: https://www.tutorialspoint.com/html/index.htm
                       https://www.w3schools.com/html/
 
 13/12/2022 :
         =>inserting audio
         =>inserting video
+        =>table
         =>semantics , non semantics ,inline and block elements
         =>References: https://www.tutorialspoint.com/html/index.htm
 
 
 14/12/2022 :     
         =>form tag , id , type
-        =>table
         =>References: https://www.tutorialspoint.com/html/index.htm
 
 
@@ -47,10 +48,6 @@ Attributes
         =>practiced HTML
         =>References: https://www.tutorialspoint.com/html/index.htm
 
-
-17/12/2022 :
-        =>project
-        =>References: https://www.tutorialspoint.com/html/index.htm
 
 
 19/12/2022 :

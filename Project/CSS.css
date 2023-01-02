@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 1px solid red; */
+}
+
+.container,
+.flex-container {
+    max-width: 1100px;
+    /* margin-left: 135px;
+    margin-right: 135px; */
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+
+}
+
+.logo {
+    width: 120.5px;
+    height: 32px;
+    cursor: pointer;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+a,
+button {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+}
+
+button {
+    display: inline;
+    width: 119px;
+    height: 48px;
+    top: 24px;
+    left: 1186px;
+    background: blue;
+    color: #FFFFFF;
+    border: radius 2px;
+    font-weight: 700;
+    size: 16px;
+    padding: 16px;
+    border: none;
+    border-radius: 75px;
+    line-height: 20px;
+    gap: 10px;
+    margin-right: 110px;
+}
+
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    color: #FFFFFF;
+
+}
+
+nav {
+    margin-right: 430px;
+}
+
+.heading {
+    size: 48px;
+    /* line-height: 72px; */
+    font-weight: 700;
+    width: 479px;
+    height: 144px;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-top: 129px;
+}
+
+p {
+    margin-top: 32px;
+
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 48px;
+    gap: 10px;
+    margin-right: 135px;
+    width: 211px;
+    height: 66px;
+
+    background: #1A47E6;
+    border-radius: 59px;
+
+    flex: none;
+    /* order: 1; */
+    flex-grow: 0;
+    margin-top: 100px;
+}
+
+.teamwork {
+    position: absolute;
+    left: 19.3%;
+    right: 0%;
+    top: 6.4%;
+    bottom: 0%;
+
+}
+
+.followUs {
+    margin-top: 450px;
+    margin-bottom: 200px;
+}
+
+.HowWeWork {
+    text-align: center;
+    position: absolute;
+    width: 1000px;
+    height: 10px;
+    left: 134px;
+    top: 800px;
+    margin-bottom: 91px;
+}
+
+
+/* .exchangeideas{
+display: grid;
+grid-template-columns: auto auto;
+margin-top: 196px;
+} */
+/* .exchange-ideas {
+    display: flex;
+}
+
+.sketching {
+    display: grid;
+    margin-top: 196px;
+} */
+
+/* .card{
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    display: flex ;
+    flex: 60% 60%;
+} */
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 4fr 4fr ;
+    column-gap: 230px;
+    row-gap: 126px;
+    position: relative;
+}
+
+/* .border{
+    border: 1px solid blue;
+    /* border-left: 0px; */
+} */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .img{
+    position: absolute;
+    top: 0px;
+  }

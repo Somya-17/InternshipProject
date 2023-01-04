@@ -149,6 +149,57 @@ Attributes
              ->align items :-
              ->align content 
 
+             28/12/2022
+        Display none 
+        Visibility hidden
+        Opacity none
+
+        CSS Position
+            ->relative - element is Positioned relative to itself
+            ->absolute - wrt parent element
+            ->sticky -  initially will stay at its position but will get fixed to a position after scrolling
+            ->fixed 
+            ->Z index property
+                    (Overlapping of images)
+            ->Opacity
+            ->CSS flex box ; display flex; flex directions :
+             ->flex wrap 
+            ->flex box /flex flow / shrink /flex items *********
+             ->justify -content:
+             space between
+             Space around(ends will have half the width)
+             Space center(no space between centre )
+             Evenly (all will have same width)
+                                         
+             -> align items 
+             ->align content 
+
+             30/12/2022
+        CSS grid
+        CSS responsiveness
+
+        Display:grid;
+            : inline-grid;
+        Grid-template-rows: 25%25% 1fr 1fr;
+        Grid template-columns:............;
+        To merge columns
+             .item1{
+        Grid-column-start:1;
+        Grid-column-start:3;
+         OR
+        Grid-column:1 3;
+        Grid-column-gap; 
+        }
+
+       GRID SYSTEM
+       Layouting
+
+        RESPONSIVENESS 
+        @media screen and(min width:
+                                Max width
+                         )     
+
+
      
 
 </pre>

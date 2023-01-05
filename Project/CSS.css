@@ -29,6 +29,7 @@ header {
     width: 120.5px;
     height: 32px;
     cursor: pointer;
+    display: inline;
 }
 .header-list{
   display: inline-block;

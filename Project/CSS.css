@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    /* border: 1px solid red; */
-}
+    font-family:'kumbh Sans';
+    
+  }
 
 .container,
 .flex-container {
@@ -29,6 +29,12 @@ header {
     width: 120.5px;
     height: 32px;
     cursor: pointer;
+}
+.header-list{
+  display: inline-block;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0px 10px;
 }
 
 nav li {
@@ -60,24 +66,6 @@ nav li {
     border-radius: 30px;
   }
 
-/* .button{
-    display: inline;
-    width: 119px;
-    height: 48px;
-    top: 24px;
-    left: 1186px;
-    background: blue;
-    color: white;
-    border: radius 2px;
-    font-weight: 700;
-    size: 16px;
-    padding: 16px;
-    border: none;
-    border-radius: 75px;
-    line-height: 20px;
-    gap: 10px;
-    margin-right: 110px;
-} */
 
 
 .top-section {
@@ -98,7 +86,6 @@ nav {
 
 .heading {
     size: 48px;
-    /* line-height: 72px; */
     font-weight: 700;
     width: 479px;
     height: 144px;
@@ -107,16 +94,9 @@ nav {
     padding-top: 129px;
 }
 
-p {
-    margin-top: 32px;
 
-}
 
 .button2 {
-    /* display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 24px 48px; */
     gap: 10px;
     margin-right: 135px;
     width: 211px;
@@ -155,27 +135,10 @@ p {
     margin-bottom: 91px;
 }
 
-
-/* .exchangeideas{
-display: grid;
-grid-template-columns: auto auto;
-margin-top: 196px;
-} */
-/* .exchange-ideas {
-    display: flex;
-}
-
-.sketching {
-    display: grid;
-    margin-top: 196px;
-} */
-
 .cards{
     display: flex;
   flex-wrap: wrap;
   flex-direction:column;
-  /* width: 200px;
-  height: 200px; */
   align-content: space-between;
   flex:2 2;
 
@@ -204,7 +167,7 @@ margin-top: 196px;
   }
 
 
-  /* Digital Section  */
+  
   .digital-section-wrapper{
   margin-top: 233px;    
   display: flex;
@@ -218,6 +181,8 @@ margin-top: 196px;
     grid-template-columns: 4fr 4fr;
     column-gap: 70px;
     row-gap: 70px;
+    margin-top: 50px;
+    
   }
 
   .Industry{
@@ -226,10 +191,15 @@ margin-top: 196px;
 
   .Industry-div{
     text-align: center;
-    position: absolute;
-    margin-left: 260px;
+    /* position: absolute; */
+    /* margin-left: 200px; */
     top: 800px;
-    margin-top: 1400px;
+    /* margin-top: 1400px;
+    line-height: 40px;
+    margin-bottom: 50px;
+     */
+     line-height: 25px;
+
   }
 
   .button-SeeAll{
@@ -250,7 +220,138 @@ margin-top: 196px;
     color: black;
     text-decoration: none;
   }
+
+  .flex-container1{
+    display: flex;
+    justify-content:space-around;
+    
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .flex-container2{
+    display: flex;
+    justify-content:space-around;
+    
+    
+    flex-direction: row;
+      
+    
+  }
   
+   .box{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 32px;
+    text-align: left;
+  }
+
+
+  .seperate{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 160px;
+    
+  }
   
+  .pics-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+  }
+  .section-margin{
+    margin-top: 240px;
+  }
+
+  .box1{
+    width: 20;
+    position: absolute;
+
+  }
+  .client-logo{
+    width: 30%;
+  }
+  .client-logo-img{
+    width: 100%;
+  }
+  .client-para{
+    width: 300px;
+  }
+
+
+
+
+footer{
+  width: 100%;
+  background: #1E2A54;
+  display: block ;
+  margin-top: 200px;
+}
+.footer container{
+  width: 1100px;
+  margin: auto 0;
+}
+
+.footer-section-1{
+  display: flex;
+  flex-direction: row;
+  gap: 460px;
+  
+  }
+  
+.footer-button{
+  background-color: #1FC2E5;
+  color: #fff;
+  padding: 20px 40px 20px 40px;
+  border-radius: 55px;
+  margin-top: 72px;
+  margin-bottom: 155px;
+}
+
+.footer-items {
+  color: #fff;
+  margin-top: 72px
+
+}
+
+.footer-section-2{
+  display: flex;
+  flex-direction: row;
+  /* gap: 100px; */
+  margin-bottom: 120px;
+  justify-content: space-between;
+}
+
+.footer-about{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  margin-bottom: 72px;
+  line-height: 32px;
+  list-style: none;
+  color: #FFFFFF;
+ 
+}
+.footer-about ul{
+  list-style: none;
+}
+
+.footer-list li a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+
+
+
+
 
     
